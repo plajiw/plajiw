@@ -1,19 +1,10 @@
+# Olá!
 
-# **Pablo Ribeiro Ramos**
+Sou o Pablo Ribeiro Ramos, estudante de Ciências da Computação na Pontifícia Universidade Católica de Goiás (PUC GO).
 
-* **Estudante de Ciências da Computação** ‍ 
+**Interesses:**
 
-## **Localização**
-
-* **Goiânia, Brasil** 🇧🇷
-
-## **Contatos**
-
-* **LinkedIn:** [https://www.linkedin.com/in/pabloribeiroramos/](https://www.linkedin.com/in/pabloribeiroramos/) 
-* **Twitter:** [@pablCtrl](https://twitter.com/pablCtrl) 
-
-## **Habilidades**
-
-* **Programação:** C/C++, Java, Python, JavaScript
-* **Banco de dados:** MySQL
-* **Inteligência artificial:** Machine Learning, Deep Learning 
+* Banco de dados
+* Aprendizagem de máquina
+* Criação de jogos
+* Desenvolvimento de aplicações web e móveis
