@@ -1,3 +1,4 @@
+```c
 // Quem Sou Eu
 const char* nome = "Pablo Ribeiro";
 const char* curso = "Ciencias da Computacao";
