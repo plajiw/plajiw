@@ -18,16 +18,16 @@ Experiencia experiencia_profissional = {
     "Estagiário de Suporte",
     "Auvo",
     "Mar 2024 - Atual",
-    {"Atendimento ao Cliente", "Consultas em Banco de Dados", "API"}
+    {"Atendimento ao Cliente", "Banco de Dados", "API"}
 };
 
 // Habilidades
 typedef struct {
-    const char* concluidos;
-    const char* em_progresso;
+    const char* concluidos[];
+    const char* em_progresso[];
 } Habilidades;
 
 Habilidades habilidades = {
-    "Algoritmos em C",
-    "Estrutura de Dados"
+    {"Algoritmos", "Fundamentos da Computação"},
+    {"Estrutura de Dados, Geometria Analitica, Calculo 1"}
 };
