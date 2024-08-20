@@ -1,10 +1,12 @@
-// 🌟 Sobre Mim
+```c
+// Sobre Mim
 const char* nome = "Pablo Ribeiro";
 const char* curso = "Ciências da Computação";
 const char* universidade = "PUC Goiás";
-const char* interesses[] = {"Programação", "Jogos", "Músicas"};
+const char* linguagens[] = {"C", "C++", "Python", "Java"};
+const char* areas_estudo[] = {"Desenvolvimento de Jogos", "Estrutura de Dados", "Banco de Dados"};
 
-// 🚀 Experiência Profissional
+// Experiência Profissional
 typedef struct {
     const char* cargo;
     const char* empresa;
@@ -19,7 +21,7 @@ Experiencia experiencia_profissional = {
     {"Atendimento ao Cliente", "Consultas em Banco de Dados", "API"}
 };
 
-// 🛠️ Habilidades
+// Habilidades
 typedef struct {
     const char* concluidos;
     const char* em_progresso;
