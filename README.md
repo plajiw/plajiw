@@ -1,33 +1,15 @@
 ```c
-// Sobre Mim
-const char* nome = "Pablo Ribeiro";
-const char* curso = "Ciências da Computação";
-const char* universidade = "PUC Goiás";
-const char* linguagens[] = {"C", "C++", "Python", "Java"};
-const char* areas_estudo[] = {"Desenvolvimento de Jogos", "Estrutura de Dados", "Banco de Dados"};
+#include <stdio.h>
 
-// Experiência Profissional
-typedef struct {
-    const char* cargo;
-    const char* empresa;
-    const char* periodo;
-    const char* atividades[];
-} Experiencia;
+int main()
+{
+    const char* nome = "Pablo Ribeiro";
+    const char* faculdade = "PUC Goiás";
+    const char* curso = "Ciências da Computação";
+    const char* periodo = "2º Período";
+    const char* interesses[] = {"Programação", "Jogos", "Músicas"};
+    const char* linguagem_principal[] = {"C", "C++"};
 
-Experiencia experiencia_profissional = {
-    "Estagiário de Suporte",
-    "Auvo",
-    "Mar 2024 - Atual",
-    {"Atendimento ao Cliente", "Banco de Dados", "API"}
-};
 
-// Habilidades
-typedef struct {
-    const char* concluidos[];
-    const char* em_progresso[];
-} Habilidades;
 
-Habilidades habilidades = {
-    {"Algoritmos", "Fundamentos da Computação"},
-    {"Estrutura de Dados, Geometria Analitica, Calculo 1"}
-};
+}
