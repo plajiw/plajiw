@@ -1,15 +1,31 @@
-```c
-// Sobre mim
+// 🌟 Sobre Mim
 const char* nome = "Pablo Ribeiro";
-const char* curso = "Ciencias da Computacao";
-const char* universidade = "PUC Goias";
-const char* interesses[] = {"Programacao", "Jogos", "Musicas"};
+const char* curso = "Ciências da Computação";
+const char* universidade = "PUC Goiás";
+const char* interesses[] = {"Programação", "Jogos", "Músicas"};
 
-// Experiência Profissional
-const char* cargo = "Estagiario de Suporte";
-const char* empresa = "Auvo";
-const char* atividades[] = {"Atendimento ao Cliente", "Consultas em Banco de Dados", "API"};
+// 🚀 Experiência Profissional
+typedef struct {
+    const char* cargo;
+    const char* empresa;
+    const char* periodo;
+    const char* atividades[];
+} Experiencia;
 
-// Habilidades
-const char* concluidos = "Algoritmos em C";
-const char* em_progresso = "Estrutura de Dados";
+Experiencia experiencia_profissional = {
+    "Estagiário de Suporte",
+    "Auvo",
+    "Mar 2024 - Atual",
+    {"Atendimento ao Cliente", "Consultas em Banco de Dados", "API"}
+};
+
+// 🛠️ Habilidades
+typedef struct {
+    const char* concluidos;
+    const char* em_progresso;
+} Habilidades;
+
+Habilidades habilidades = {
+    "Algoritmos em C",
+    "Estrutura de Dados"
+};
