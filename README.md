@@ -12,12 +12,11 @@ int main()
 
     // Linguagens e Conhecimentos
     const char* linguagens_principais[] = {"C", "C++"};
-    const char* conhecimentos_basicos[] = {"C#", "Java", "Python", "JavaScript"};
-    const char* estrutura_algoritmos = "Conhecimento Básico";
 
     // Habilidades e Estudos
-    const char* estudos_progresso[] = {"Estrutura de Dados", "Desenvolvimento de Jogos na Unity"};
     const char* habilidades_concluidas[] = {"Algoritmos Básicos", "Desenvolvimento Web (HTML e CSS)"};
+    const char* estudos_progresso[] = {"Estrutura de Dados", "Desenvolvimento de Jogos na Unity"};
+
 
     // Experiência Profissional
     typedef struct {
