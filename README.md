@@ -1,13 +1,6 @@
 ```c
 #include <stdio.h>
 
-typedef struct {
-    const char* cargo;
-    const char* empresa;
-    const char* periodo;
-    const char* atividades[];
-} Experiencia;
-
 int main()
 {
     // Informações Pessoais
@@ -15,14 +8,25 @@ int main()
     const char* faculdade = "PUC Goiás";
     const char* curso = "Ciências da Computação";
     const char* periodo = "2º Período";
-    const char* interesses[] = {"Programação", "Jogos", "Músicas"};
-    const char* linguagem_principal[] = {"C", "C++"};
+    const char* principais_interesses[] = {"Programação", "Jogos", "Músicas"};
+
+    // Linguagens e Conhecimentos
+    const char* linguagens_principais[] = {"C", "C++"};
+    const char* conhecimentos_basicos[] = {"C#", "Java", "Python", "JavaScript"};
+    const char* estrutura_algoritmos = "Conhecimento Básico";
 
     // Habilidades e Estudos
     const char* estudos_progresso[] = {"Estrutura de Dados", "Desenvolvimento de Jogos na Unity"};
-    const char* habilidades_concluidas[] = {"Algoritmos Básicos", "Desenvolvimento Web"};
+    const char* habilidades_concluidas[] = {"Algoritmos Básicos", "Desenvolvimento Web (HTML e CSS)"};
 
     // Experiência Profissional
+    typedef struct {
+        const char* cargo;
+        const char* empresa;
+        const char* periodo;
+        const char* atividades[];
+    } Experiencia;
+
     Experiencia experiencias[] = {
         {
             "Estagiário de Suporte",
@@ -34,3 +38,4 @@ int main()
 
     return 0;
 }
+
