@@ -3,7 +3,7 @@
 const char* nome = "Pablo Ribeiro";
 const char* curso = "Ciencias da Computacao";
 const char* universidade = "PUC Goias";
-const char* interesses[] = {"**Desenvolvimento**", "Programacao", "Musica"};
+const char* interesses[] = {"Programacao", "Jogos", "Musicas"};
 
 // Experiência Profissional
 const char* cargo = "Estagiario de Suporte";
